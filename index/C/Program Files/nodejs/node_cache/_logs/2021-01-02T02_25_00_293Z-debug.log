@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   'babel-eslint',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version'
+1 verbose cli ]
+2 info using npm@6.14.9
+3 info using node@v14.15.3
+4 verbose npm-session 1d4c4293a1be30df
+5 verbose type system
+6 verbose stack FetchError: request to https://registry.npmjs.org/babel-eslint failed, reason: connect ETIMEDOUT 104.16.16.35:443
+6 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\node-fetch-npm\src\index.js:68:14)
+6 verbose stack     at ClientRequest.emit (events.js:315:20)
+6 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:469:9)
+6 verbose stack     at TLSSocket.emit (events.js:315:20)
+6 verbose stack     at emitErrorNT (internal/streams/destroy.js:106:8)
+6 verbose stack     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+6 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+7 verbose cwd d:\应用\毕业设计网站\毕业设计网站\index
+8 verbose Windows_NT 10.0.18363
+9 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view" "--json" "babel-eslint" "description" "dist-tags.latest" "homepage" "version"
+10 verbose node v14.15.3
+11 verbose npm  v6.14.9
+12 error code ETIMEDOUT
+13 error errno ETIMEDOUT
+14 error network request to https://registry.npmjs.org/babel-eslint failed, reason: connect ETIMEDOUT 104.16.16.35:443
+15 error network This is a problem related to network connectivity.
+15 error network In most cases you are behind a proxy or have bad network settings.
+15 error network
+15 error network If you are behind a proxy, please make sure that the
+15 error network 'proxy' config is set properly.  See: 'npm help config'
+16 verbose exit [ 1, true ]
