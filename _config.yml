@@ -1,5 +1,5 @@
 # 其他已有配置（如果有）保留...
 exclude:
   - node_modules/  # 排除 node_modules 目录
-  - Gemfile.lock   # （可选）Jekyll 常见排除项（已存在则无需重复添加）
-  - vendor/        # （可选）其他依赖目录
+  - .gitignore   # （可选）Jekyll 常见排除项（已存在则无需重复添加）
+  - README.md        # （可选）其他依赖目录
